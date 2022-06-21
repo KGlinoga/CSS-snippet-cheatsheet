@@ -1,7 +1,53 @@
-body {
-    background-color: black;
+*{
+    color: fuchsia;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color: fuchsia
+:root{
+    --linecolor: whitesmoke;
+    --most-text: fuchsia;
+}
+
+body {
+    background-color: #1b1c1e;
+}
+
+header {
+    text-align: center;
+}
+
+header p{
+    color: whitesmoke;
+}
+
+main {
+    display: flexbox;
+    padding: 2px;
+}
+
+section {
+    display: inline-flex;
+    border: 2px dashed var(--linecolor);
+    position: relative;
+    justify-content: center;
+}
+
+section h2 {
+    display: flex;
+    padding: 5px;
+    border: 1px solid var(--linecolor);
+    border-radius: 10px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+section p {
+    position: relative;
+    justify-content: left;
+    display: block;
+    padding: 40px
+}
+
+section pre {
+    padding: 40px;
 }
