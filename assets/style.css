@@ -20,19 +20,19 @@ header p{
     color: whitesmoke;
 }
 
-main {
+.container {
     display: flexbox;
     padding: 2px;
 }
 
-section {
+.card {
     display: inline-flex;
     border: 2px dashed var(--linecolor);
     position: relative;
     justify-content: center;
 }
 
-section h2 {
+.card h2 {
     display: flex;
     padding: 5px;
     border: 1px solid var(--linecolor);
@@ -41,13 +41,13 @@ section h2 {
     margin: 0 auto;
 }
 
-section p {
+.card p {
     position: relative;
     justify-content: left;
     display: block;
     padding: 40px
 }
 
-section pre {
+.card pre {
     padding: 40px;
 }
